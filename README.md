@@ -64,7 +64,7 @@ $(code).replace('a', 'c')
   $(code)
     .find('var a = 1')
     .attr('declarations.0.id.name', 'c')
-    .root()
+    .root2()
     .generate();
   ```
 <br>
